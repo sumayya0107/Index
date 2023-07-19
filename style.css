@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #fafafc;
+    padding: 0 15%;
+}
+.nav__collection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav__item span{
+    font-size: 12px;
+}
+.nav__bottom{
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 0;
+}
+.nav__bottom a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 16px;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h3{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 14px ;
+}
+.banner__links a{
+    margin: 0 14px;
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 18px;
+}
+.macbook__air{
+    background: url("./img/hero_macbook_air_15__x63n8tqcpo2u_large.jpg") no-repeat center/cover;
+}
+.iphone14pro{
+    background: url("./img/hero_iphone14pro_spring__9xo85pm6sbmm_large\ \(2\).jpg") no-repeat center/cover;
+    color: #fff;
+}
+.iphone14{
+    background: url("./img/hero_iphone14_yellow__eun20sn4imi6_large\ \(1\).jpg") no-repeat center/cover;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    gap: 16px;
+}
+.box{
+    width: calc(50% - 8px);
+    height: 500px;
+
+    
+    text-align: center;
+    padding-top: 50px;
+}
+.box h3{
+    font-weight: 100;
+    margin: 12px 0;
+}
+.box a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.vision{
+    background: url("./img/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg") no-repeat center/cover;
+    padding-top: 350px;
+}
+.watch{
+    background: url("./img/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.ipadpro{
+    background: url("./img/promo_ipadpro__ch217v9v7no2_large.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.tradein{
+    background: url("./img/iphone_tradein_promo__d5au3rkw5kuq_large\ \(1\).jpg") no-repeat center/cover;
+
+}
+.jpg{
+background: url("./img/6.jpg");
+color: #fff;
+padding-top: 350px;
+}
+.url{
+    background: url("./img/m.jpg");
+}
+.footer{
+    padding: 40px 15%;
+}
+.footer p{
+    color: #888;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.footer__wrapper{
+    border-top: 1px solid #aaa ;
+    height: 400px;
+    display: flex;
+
+}
+.footer__item{
+    width: 20%;
+    height: 100%;
+}
+.footer__item ul{
+    list-style: none;
+    line-height: 1.8;
+}
+.footer__item:hover{
+    line-height: 1.4;
+}
